@@ -1,0 +1,35 @@
+
+input{
+  font-size: 1em;
+  border: 2.5px solid #1B8EB9;
+  padding: 6px;
+  font-weight: 300;
+  box-sizing: border-box;
+  text-indent: 6px;
+  -webkit-box-shadow: inset 1px 0px 0px -1px #404040;
+  box-shadow: inset 1px 0px 0px -1px #404040;
+  transition: box-shadow 0.2s, border 0.2s, color 0.2s, background 0.2s;
+  width: 250px;
+   background: linear-gradient(
+     white, white 50%, #333 50%, #333
+  );
+  background-size: 100% 202%;
+}
+
+.myBox:focus{
+  color:white;
+  background-position: 100% 100%;
+}
+
+img {
+    border: 2px 2px 2px 2px;
+   position: relative;
+   top: -31em;
+   right: 0em;
+
+
+}
+
+.hidden {
+  display: none;
+}
